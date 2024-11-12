@@ -15,7 +15,15 @@ module.exports = defineConfig({
         '@components': path.resolve(__dirname, 'src/app/shared/components'),
         '@widgets': path.resolve(__dirname, 'src/app/shared/widgets'),
         '@pages': path.resolve(__dirname, 'src/app/pages'),
+        '@routers': path.resolve(__dirname, 'src/app/routers'),
       }
     }
-  }
+  },
+  // css: {
+  //   loaderOptions: {
+  //     scss: {
+  //       additionalData: `@import "src/main.scss"`,
+  //     },
+  //   },
+  // },
 });

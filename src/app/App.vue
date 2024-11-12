@@ -1,20 +1,10 @@
 <template>
-  <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
-  <HomePage :msg="'test22'"></HomePage>
-  <LoginPage :title="'Input Login Page Title'"></LoginPage>
+  <!-- <LoginPage :title="'Input Login Page Title'"></LoginPage> -->
+  <router-view />
 </template>
 
 <script setup>
-import { HomePage, LoginPage } from './pages';
-
-
-// export default {
-//   name: 'App',
-//   components: {
-//     HomePage,
-//     LoginPage,
-//   }
-// }
+// import { LoginPage } from './pages';
 </script>
 
 <style>
