@@ -1,1 +1,1 @@
-export { default as AppButton } from './App-Button.vue';
+export { default as AppButton } from './button/App-Button.vue';
