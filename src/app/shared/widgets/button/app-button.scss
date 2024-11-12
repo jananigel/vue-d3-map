@@ -1,0 +1,16 @@
+button {
+  border-radius: .4rem;
+  border-color: transparent;
+  cursor: pointer;
+  padding: .6rem 1.2rem;
+  transition: background-color .2s linear;
+
+  &.primary {
+    background-color: var(--btn-primary-bg);
+    color: var(--btn-primary-color);
+
+    &:hover {
+      background-color: var(--btn-primary-hover-bg);
+    }
+  }
+}
