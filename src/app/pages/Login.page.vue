@@ -1,6 +1,6 @@
 <template>
   Login page {{ title }}
-  <AppButton :title="'testt'"/>
+  <AppButton :title="'testt'" :class="'primary'"/>
 </template>
 <script>
 import { AppButton } from '../shared/widgets';
