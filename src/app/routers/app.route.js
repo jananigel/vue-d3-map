@@ -2,7 +2,7 @@ import { createWebHistory } from 'vue-router';
 import { createRouter } from 'vue-router'
 
 const HomePage = () => import('@pages/Home.page.vue');
-const LoginPage = () => import('@pages/Login.page.vue');
+const LoginPage = () => import('@pages/LoginPage.vue');
 
 const routes = [
   {
