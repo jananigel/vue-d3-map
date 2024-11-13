@@ -1,8 +1,14 @@
 :root {
 
+
+  --primary: rgb(24, 98, 235);
+
   --btn-primary-bg: rgb(26, 104, 251);
-  --btn-primary-hover-bg: rgb(24, 98, 235);
+  --btn-primary-hover-bg: var(--primary);
   --btn-primary-color: rgb(255, 255, 255);
+
+  --input-border-color: #989898;
+  --input-border-active-color: var(--primary);;
 
   --rem: 10px;
 }
