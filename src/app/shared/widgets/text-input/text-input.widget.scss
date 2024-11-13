@@ -1,0 +1,10 @@
+input {
+  border-radius: .4rem;
+  padding: .6rem;
+  border: .1rem solid var(--input-border-color);
+  outline: none;
+
+  &:focus {
+    border-color: var(--input-border-active-color)
+  }
+}
