@@ -1,13 +1,13 @@
 <template>
   <form @submit.prevent="onSubmitClick()">
-    <input v-model="loginForm.account" type="text">
-    <input v-model="loginForm.password" type="password">
+    <TextInput v-model="loginForm.account" :placeholder="'Enter your account'" />
+    <TextInput v-model="loginForm.password" :placeholder="'Enter your password'" />
     <AppButton :title="'testt'" :class="'primary'"/>
   </form>
 </template>
 <script setup>
 import { reactive } from 'vue';
-import { AppButton } from '../shared/widgets';
+import { AppButton, TextInput } from '../shared/widgets';
 
   const loginForm = reactive({
     account: '',
